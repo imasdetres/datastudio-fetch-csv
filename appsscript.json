@@ -1,0 +1,16 @@
+{
+  "timeZone": "Europe/Paris",
+  "dependencies": {},
+  "dataStudio": {
+    "name": "Fetch CSV",
+    "logoUrl": "https://i.ibb.co/CsTzNSG/csv-logo.jpg",
+    "company": "Google Developer Relations",
+    "companyUrl": "https://developers.google.com/datastudio/",
+    "addonUrl": "",
+    "supportUrl": "",
+    "shortDescription": "Fetch data from a CSV",
+    "description": "This connector lets users query data from a CSV with the possibility to chose the delimiter and a text qualifier",
+    "authType": "NONE",
+    "feeType": "FREE"
+  }
+}
