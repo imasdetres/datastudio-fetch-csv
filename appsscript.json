@@ -4,8 +4,8 @@
   "dataStudio": {
     "name": "Fetch CSV",
     "logoUrl": "https://raw.githubusercontent.com/TVS-Bruno/fetch-csv/master/fetch-csv-logo.jpg",
-    "company": "Google Developer Relations",
-    "companyUrl": "https://developers.google.com/datastudio/",
+    "company": "TVS",
+    "companyUrl": "http://www.travelclick-video-solutions.com/",
     "addonUrl": "https://github.com/TVS-Bruno/fetch-csv",
     "supportUrl": "https://github.com/TVS-Bruno/fetch-csv/issues",
     "shortDescription": "Fetch data from a CSV",
