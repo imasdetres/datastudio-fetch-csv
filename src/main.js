@@ -17,12 +17,13 @@ function getConfig(request) {
     
   connectorConfig.newTextInput()
     .setId('url')
-    .setName('Enter the URL of your CSV');
-  
+    .setName('Enter the URL of your CSV')
+    .setAllowOverride(true);
+
   connectorConfig.newSelectSingle()
     .setId('delimiter')
     .setName('Select the delimiter between each value')
-    .setAllowOverride(false)
+    .setAllowOverride(true)
     .addOption(connectorConfig.newOptionBuilder().setLabel('Comma').setValue(','))
     .addOption(connectorConfig.newOptionBuilder().setLabel('Semicolon').setValue(';'))
     .addOption(connectorConfig.newOptionBuilder().setLabel('Tabulation').setValue('\t'));
@@ -30,7 +31,7 @@ function getConfig(request) {
   connectorConfig.newSelectSingle()
     .setId('textQualifier')
     .setName('Does the values have a text qualifier?')
-    .setAllowOverride(false)
+    .setAllowOverride(true)
     .addOption(connectorConfig.newOptionBuilder().setLabel('No value').setValue('undefined'))
     .addOption(connectorConfig.newOptionBuilder().setLabel('Simple quote').setValue("'"))
     .addOption(connectorConfig.newOptionBuilder().setLabel('Double quote').setValue('"'));
@@ -38,7 +39,7 @@ function getConfig(request) {
   connectorConfig.newSelectSingle()
     .setId('containsHeader')
     .setName('Does your CSV have a header row?')
-    .setAllowOverride(false)
+    .setAllowOverride(true)
     .addOption(connectorConfig.newOptionBuilder().setLabel('True').setValue('true'))
     .addOption(connectorConfig.newOptionBuilder().setLabel('False').setValue('false'));
     
